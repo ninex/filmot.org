@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "filmot.org",
+  "description": "Change imgur.com to filmot.org. Supports RES view images and never ending reddit.",
+  "version": "1.2",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+	"js": ["filmot.js"]
+  }]
+}
